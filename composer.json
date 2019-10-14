@@ -1,0 +1,54 @@
+{
+    "name": "fsvxavier/constantti",
+    "description": "Constantti Plataform",
+    "version": "1.0.0",
+    "type": "library",
+    "keywords": [
+        "framework",
+        "library",
+        "Constantti"
+    ],
+    "authors": [
+        {
+            "name": "Fabricio S V Xavier",
+            "email": "fabricio@cityware.com.br",
+            "homepage": "http://www.constantti.com.br",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/fsvxavier/constantti.git"
+        }
+    ],
+    "homepage": "http://www.constantti.com.br/",
+    "autoload": {
+        "psr-4": {
+            "Constantti\\": "src/"
+        },
+        "psr-0": {
+            "Constantti\\": "src/"
+        },
+        "classmap": [
+            "src/"
+        ]
+    },
+    "license": "GPL-3.0",
+    "require": {
+        "php": ">=7.2",      
+        "phpmailer/phpmailer": "~6.1",
+        "phpseclib/phpseclib": "~2.0"
+    },
+    "require-dev": {
+    },
+    "suggest": {
+        "phpmailer/phpmailer": "PHPMailer is a full-featured email creation and transfer class for PHP"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev",
+            "dev-develop": "1.1-dev"
+        }
+    }
+}
